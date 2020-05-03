@@ -1,0 +1,25 @@
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class Row extends Component {
+  render() {
+    const {item} = this.props;
+    return (
+      <tr>
+          {{ for(const column of it.columns) { }}<td>{item.{{=column.field}}}</td>
+          {{ } }}
+
+      </tr>
+    );
+  }
+}
+
+Row.propTypes = {
+  item: PropTypes.object,
+};
+
+Row.defaultProps = {
+  item: null,
+};
+
+export default Row;

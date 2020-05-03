@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "template": "table.header.template",
+      "output": "table.header.js"
+    },
+    {
+      "template": "table.row.template",
+      "output": "table.row.js"
+    },
+    {
+      "template": "table.template",
+      "output": "table.js"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+import React, {Component} from 'react';
+
+class Header extends Component {
+  render() {
+    return (
+      <thead>
+        <tr>
+          {{ for(const column of it.columns) { }}<th>{{=column.title}}</th>
+          {{ } }}
+        </tr>
+      </thead>
+    );
+  }
+}
+
+export default Header;

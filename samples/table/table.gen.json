@@ -1,0 +1,13 @@
+{
+  "type": "table",
+  "columns": [
+    {
+      "title": "ID",
+      "field": "id"
+    },
+    {
+      "title": "Employee Name",
+      "field": "employee_name"
+    }
+  ]
+}
